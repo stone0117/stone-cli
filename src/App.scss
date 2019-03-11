@@ -1,0 +1,33 @@
+.SNApp {
+
+}
+
+.tab-button {
+  padding                 : 6px 10px;
+  border-top-left-radius  : 3px;
+  border-top-right-radius : 3px;
+  border                  : 1px solid #CCC;
+  cursor                  : pointer;
+  background              : #F0F0F0;
+  margin-bottom           : -1px;
+  margin-right            : -1px;
+
+  &:hover {
+    background : #E0E0E0;
+  }
+
+  &.active {
+    background : #E0E0E0;
+    //background : #008B8B;
+  }
+}
+
+.card {
+  width         : 80%;
+  margin-bottom : 16px;
+  margin-top    : 16px;
+  border        : 1px solid #EEE;
+  box-shadow    : 0 2px 3px #CCC;
+  padding       : 16px;
+  text-align    : left;
+}
